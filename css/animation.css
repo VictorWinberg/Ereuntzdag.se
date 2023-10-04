@@ -2,7 +2,7 @@
 body {
 	font-family: Sans-serif;
 	text-align: center;
-	background: black;
+	background-color: white;
  	color: white;
 	text-shadow: 0 1px 0 #ccc,
                0 2px 0 #c9c9c9,
@@ -16,7 +16,7 @@ body {
                0 10px 10px rgba(0,0,0,.15);
 	overflow: hidden;
 }
-.fuckyes {
+#fuckyes {
 	font-size: 100px;
 	position: absolute;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
@@ -29,9 +29,7 @@ body {
     margin: auto;
     opacity: 0;
     -webkit-animation: move linear 2s infinite;
-    -webkit-animation-delay: 5.4s;
     animation: move linear 2s infinite;
-    animation-delay: 5.4s;
 }
 @-webkit-keyframes move {
 	 0% {
@@ -160,8 +158,8 @@ body {
     opacity: 0;
 	-webkit-animation: untz linear 2s infinite;
 	animation: untz linear 2s infinite;
-    -webkit-animation-delay: 21s;
-    animation-delay: 21s;
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
 }
 @-webkit-keyframes untz {
 	 0%, 15%, 30%, 37%, 50%, 58%, 70% {
@@ -251,9 +249,6 @@ body {
     width: 50%;
     height: 30%;
     margin: auto;
-    opacity: 0;
-	-webkit-animation: opacity linear 5.4s;
-	animation: opacity linear 5.4s;
 }
 
 @-webkit-keyframes opacity {
@@ -264,13 +259,10 @@ body {
 	from {opacity: 1;}
 	to {opacity: 0;}
 }
-.fuckno {
-	opacity: 0;
+#fuckno {
 	font-size: 120px;
     -webkit-animation: show linear 5s infinite;
 	animation: show linear 5s infinite;
-	-webkit-animation-delay: 6.5s;
-    animation-delay: 6.5s;
 }
 @-webkit-keyframes show {
 	0%, 100% {opacity: 1; }
@@ -280,13 +272,11 @@ body {
 	0%, 100% {opacity: 1; }
 	50% {opacity: 0.8; }
 }
-.date {
-	opacity: 0;
+#date {
 	font-size: 40px;
+	
     -webkit-animation: show linear 5s infinite;
 	animation: show linear 5s infinite;
-	-webkit-animation-delay: 6.5s;
-    animation-delay: 6.5s;
 }
 .small {
 	font-size: 16px;
@@ -294,7 +284,6 @@ body {
 #defvid { position: absolute; width:99%; height:99%; }
 #frevid { position: absolute; width:100%; }
 #myimage {
-	opacity: 0;
 	margin: auto;
 /* 	top: 0; */
 /*     bottom: 0; */
@@ -306,8 +295,6 @@ body {
     height: auto;
 	-webkit-animation: show linear 5s infinite;
 	animation: show linear 5s infinite;
-	-webkit-animation-delay: 6.5s;
-    animation-delay: 6.5s;
 }
 .image {
 	position: absolute; width:100%; height:auto;
